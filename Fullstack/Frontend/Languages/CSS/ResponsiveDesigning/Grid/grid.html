@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .root{
+display: grid;
+/* grid-template-rows: 200px 200px 200px;
+grid-template-columns: 200px 200px 200px; */
+/* grid-template-rows:repeat(3,200px);
+grid-template-columns:repeat(4,200px); */
+/* grid-template-rows:repeat(3,200px);
+grid-template-columns:repeat(4,1fr); */
+grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+ grid-gap: 20px;
+grid-template-rows: repeat(4,minmax(200px,1fr)) ;
+border: 2px solid black;
+        }
+        .box{
+            font-size: 30px;
+            border: 2px solid black;
+            margin: 10px;     
+            background-color: burlywood;
+            color: navy;
+        }
+    </style>
+    <div class="root">
+        <div class="box" id="item1">Item1</div>
+        <div class="box" id="item2">Item2</div>
+        <div class="box" id="item3">Item3</div>
+        <div class="box" id="item4">Item4</div>
+        <div class="box" id="item5">Item5</div>
+        <div class="box" id="item6">Item6</div>
+        <div class="box" id="item1">Item7</div>
+        <div class="box" id="item2">Item8</div>
+        <div class="box" id="item3">Item9</div>
+        <div class="box" id="item4">Item10</div>
+        <div class="box" id="item5">Item11</div>
+        <div class="box" id="item6">Item12</div>
+    </div>
+    <a href="../../../../../../index.html"><h1>Go back to main page</h1></a>
+</body>
+</html>
