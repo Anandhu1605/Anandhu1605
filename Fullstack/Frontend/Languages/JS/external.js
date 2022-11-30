@@ -1,0 +1,1 @@
+console.log('External output on cosole')
