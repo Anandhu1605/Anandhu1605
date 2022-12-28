@@ -1,0 +1,45 @@
+
+.column {
+    float: left;
+    width: 32%;
+    padding: 10px;
+    height: 200px;
+    display: grid;
+    text-align: center;
+  }
+  
+  .button1{
+   background-color: aliceblue;
+    color: black;
+    padding: 2px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    margin: 100px;
+    cursor: pointer;
+  }
+
+  .total{
+    width:23%;
+
+    background-color: gold;
+    color: black;
+    padding: 3px;
+    text-align: left;
+    display:inline-block ;
+    font-size: 20px;
+    margin: 50px;
+  }
+
+
+
+  .winner{
+    color: black;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    margin: 100px;
+  }
+
+  
